@@ -1,0 +1,50 @@
+﻿Uninstalling assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Removing EventLog source TweetService.
+Service TweetService is being removed from the system...
+Service TweetService was successfully removed from the system.
+Installing assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Installing service TweetService...
+Service TweetService has been successfully installed.
+Creating EventLog source TweetService in log Application...
+Committing assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Uninstalling assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Removing EventLog source TweetService.
+Service TweetService is being removed from the system...
+Service TweetService was successfully removed from the system.
+Installing assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Installing service TweetService...
+Service TweetService has been successfully installed.
+Creating EventLog source TweetService in log Application...
+Committing assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Uninstalling assembly 'C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.InstallLog
+   assemblypath = C:\TestCode\restful_wcf\RestWCFWinService\bin\Debug\RestWCFWinService.exe
+Removing EventLog source TweetService.
+Service TweetService is being removed from the system...
+Service TweetService was successfully removed from the system.

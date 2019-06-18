@@ -1,0 +1,8 @@
+﻿Uninstalling assembly 'C:\rest_wcf\RestWCF\RestWCFWinService\bin\Release\RestWCFWinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\rest_wcf\RestWCF\RestWCFWinService\bin\Release\RestWCFWinService.InstallLog
+   assemblypath = C:\rest_wcf\RestWCF\RestWCFWinService\bin\Release\RestWCFWinService.exe
+Removing EventLog source TweetService.
+Service TweetService is being removed from the system...
+Service TweetService was successfully removed from the system.

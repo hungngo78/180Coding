@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.exe
+Installing service TweetService2...
+Service TweetService2 has been successfully installed.
+Creating EventLog source TweetService2 in log Application...
+Committing assembly 'C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.InstallLog
+   assemblypath = C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.exe

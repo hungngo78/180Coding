@@ -1,0 +1,13 @@
+C:\rest_wcf\RestWCF\RestWCFServiceLibrary\bin\RestWCFServiceLibrary.dll.config
+C:\rest_wcf\RestWCF\RestWCFServiceLibrary\bin\RestWCFServiceLibrary.dll
+C:\rest_wcf\RestWCF\RestWCFServiceLibrary\bin\RestWCFServiceLibrary.pdb
+C:\rest_wcf\RestWCF\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.csproj.CoreCompileInputs.cache
+C:\rest_wcf\RestWCF\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.dll
+C:\rest_wcf\RestWCF\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.pdb
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\bin\RestWCFServiceLibrary.dll.config
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\bin\RestWCFServiceLibrary.dll
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\bin\RestWCFServiceLibrary.pdb
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.csprojAssemblyReference.cache
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.dll
+C:\Users\them\Documents\GitHub\hungngo78\180Coding\restful_wcf\RestWCFServiceLibrary\obj\Debug\RestWCFServiceLibrary.pdb

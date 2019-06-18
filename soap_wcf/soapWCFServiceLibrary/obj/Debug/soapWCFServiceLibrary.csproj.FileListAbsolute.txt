@@ -1,0 +1,14 @@
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\bin\soapWCFServiceLibrary.dll.config
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\bin\soapWCFServiceLibrary.dll
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\bin\soapWCFServiceLibrary.pdb
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.csprojAssemblyReference.cache
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.csproj.CoreCompileInputs.cache
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.dll
+C:\Users\them\source\repos\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.pdb
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\bin\soapWCFServiceLibrary.dll.config
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\bin\soapWCFServiceLibrary.dll
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\bin\soapWCFServiceLibrary.pdb
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.csproj.CoreCompileInputs.cache
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.dll
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.pdb
+C:\rest_wcf\soapWCF\soapWCFServiceLibrary\obj\Debug\soapWCFServiceLibrary.csprojAssemblyReference.cache

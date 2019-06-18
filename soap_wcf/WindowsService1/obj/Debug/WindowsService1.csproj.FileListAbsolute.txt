@@ -1,0 +1,13 @@
+C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.exe.config
+C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.exe
+C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\WindowsService1.pdb
+C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\soapWCFServiceLibrary.dll
+C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\soapWCFServiceLibrary.pdb
+C:\rest_wcf\soapWCF\WindowsService1\bin\Debug\soapWCFServiceLibrary.dll.config
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.cache
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.csproj.CoreCompileInputs.cache
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.csproj.CopyComplete
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.exe
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.pdb
+C:\rest_wcf\soapWCF\WindowsService1\obj\Debug\WindowsService1.csprojAssemblyReference.cache
