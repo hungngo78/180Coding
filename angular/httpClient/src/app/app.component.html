@@ -1,0 +1,58 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+    Angular 7 + HttpClient Sample 
+  </h1>
+</div>
+<h1>HttpClient Get </h1>
+
+<ul>
+	
+  <li><h2>GET /products</h2></li>
+  <li>
+    <ul>
+      <li *ngFor="let product of productsObservable | async " >
+        -- id: {{product.id}}
+        -- name: {{product.name}}
+        -- cost: {{product.cost}}
+        -- quantity: {{product.quantity}}
+      </li>
+    </ul> 
+  </li>
+  
+  <li><hr/></li>
+  <li><h2>GET /families</h2></li>
+  <li>
+    <ul>
+      <li *ngFor="let family of families" >
+        -- id: {{family.id}}
+        -- name: {{family.name}}
+      </li>
+    </ul>     
+  </li>
+  
+  <li><hr/></li>
+  <li><h2>GET /locations</h2></li>
+  <li>
+    <ul>
+      <li *ngFor="let location of locations" >
+        -- id: {{location.id}}
+        -- name: {{location.name}}
+      </li>
+    </ul>     
+  </li>
+  
+  <li><hr/></li>
+  <li><h2>GET /transactions</h2></li>
+  <li>
+    <ul>
+      <li *ngFor="let transaction of transactions" >
+        -- id: {{transaction.id}}
+        -- product: {{transaction.productId}}
+        -- cost: {{transaction.cost}}
+        -- quantity: {{transaction.quantity}}
+      </li>
+    </ul>     
+  </li>    
+</ul>
+

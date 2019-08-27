@@ -1,0 +1,36 @@
+
+<div class="container warpper-container">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" [routerLink]="['/home']">Home</a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li routerLinkActive="active"><a [routerLink]="['/products']">Products List</a></li>
+          <!--li routerLinkActive="active"><a [routerLink]="['/product', 'P01']">Product P01</a></!--li>
+          <li routerLinkActive="active"><a [routerLink]="['/product', 'P02']">Product P02</a></li>
+          <li routerLinkActive="active"><a [routerLink]="['/product', 'P03']">Product P03</a></li>
+          <li routerLinkActive="active"><a [routerLink]="['/product', 'P04']">Product P04</a></li>
+          <!--li routerLinkActive="active"><a [routerLink]="['/product', 'P05']">Product P05</a></li-->
+          <li routerLinkActive="active"><a (click)="onViewProduct('P01')" class="label label-success">Product P01</a></li>
+          <li routerLinkActive="active"><a (click)="onViewProduct('P02')" class="label label-success">Product P02</a></li>
+          <li routerLinkActive="active"><a (click)="onViewProduct('P03')" class="label label-success">Product P03</a></li>
+          <li routerLinkActive="active"><a (click)="onViewProduct('P04')" class="label label-success">Product P04</a></li>
+          <li routerLinkActive="active"><a (click)="onViewProduct('P05')" class="label label-success">Product P05</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <router-outlet></router-outlet>
+
+</div>
+
