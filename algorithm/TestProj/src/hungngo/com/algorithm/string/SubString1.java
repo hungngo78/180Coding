@@ -27,23 +27,27 @@ public class SubString1 {
 	private boolean checkConcatenated(String s, String t, String subString) {
 		boolean res = false;
 		
+		//checkedStr = subString;
 		String checkedStr = "";
 		while (checkedStr.length() <= t.length()) {
 			if (checkedStr.equals(t)) {
 				res = true;
 				break;
 			} else {
+				//checkedStr = checkedStr.concat(checkedStr);  ->  a+a = aa,  aa+aa=aaaa  -> wrong vi miss "aaa"
 				checkedStr = checkedStr.concat(subString);
 			}
 		}
 		
 		if (res) {
+			//checkedStr = subString;
 			checkedStr = "";
 			while (checkedStr.length() <= s.length()) {
 				if (checkedStr.equals(s)) {
 					res = true;
 					break;
 				} else {
+					//checkedStr = checkedStr.concat(checkedStr);  ->  a+a = aa,  aa+aa=aaaa  -> wrong vi miss "aaa"
 					checkedStr = checkedStr.concat(subString);
 				}
 			}
@@ -64,8 +68,8 @@ public class SubString1 {
 		*/
 		
 		// TODO
-		String s = "aaaa";
-		String t = "aaa";
+		String s = "abcd";
+		String t = "abcd";
 		
 		SubString1 sub = new SubString1();
 		System.out.print("lenght of min substring= " +sub.getMinSubStringLenght(s, t)); 
