@@ -124,7 +124,7 @@ public class StringCompare1 {
 		
 		
 		// TODO
-		String s1 = "bc";
+		String s1 = "b1c";
 		String s2 = "b1";
 		
 		StringCompare1 stringCompare1 = new StringCompare1();
