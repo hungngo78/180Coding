@@ -22,7 +22,10 @@ public class Target {
 		Map<Integer, Integer> tmpMap = new HashMap<>();
 		for (int i= 0; i<arr.length; i++) {
 			if (tmpMap.containsValue(arr[i])) {
-				res.put(target - arr[i], arr[i]);
+				// should check   distinct pair (3,9)  (9,3)
+				if (!res.containsKey(arr[i]) && !res.containsKey(target - arr[i]))		
+					res.put(target - arr[i], arr[i]);  
+				
 				tmpMap.remove(target - arr[i]);
 			} else {
 				tmpMap.put(arr[i], target - arr[i]);
@@ -34,7 +37,7 @@ public class Target {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] arr = {13, 11, 8, 5, 9, 12, 5, 6, 2};
+		int[] arr = {13, 9, 11, 12, 8, 5, 9, 12, 5, 12, 9, 6, 2};
 		int targetNo = 21;
 		
 		Target t = new Target();

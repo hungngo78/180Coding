@@ -1,6 +1,33 @@
 package hungngo.com.algorithm.string;
 
 public class StringCompare1 {
+	
+	/*
+	 * s1 = "ab40c";
+	 * s2 = "ab5cdef";
+	 * --> s1 > s2
+	 * 
+	 * s1 = "ab40";
+	 * s2 = "ab";
+	 * --> s1 > s2
+	 * 
+	 * s1 = "abc";
+	 * s2 = "ab4";
+	 * --> s1 > s2
+	 * 
+	 * s1 = "ab4";
+	 * s2 = "ab4";
+	 * --> s1 = s2
+	 * 
+	 * s1 = "b1c";
+	 * s2 = "b1";
+	 * --> s1 > s2 
+	 * 
+	 * s1 = "bc";
+	 * s2 = "b1";
+	 * --> s1 > s2  
+	 */
+	
 
 	public StringCompare1() {
 		// TODO Auto-generated constructor stub
@@ -37,7 +64,7 @@ public class StringCompare1 {
 				
 				index1++;
 				
-				// increase index of s2
+				// skip the current number in s2, because letter is always greater than number according to requirement
 				index2++;
 				while ( index2<s2.length() && Character.isDigit(s2.charAt(index2)) ){
 					index2++;
@@ -47,7 +74,7 @@ public class StringCompare1 {
 				
 				index2++;
 				
-				// increase index of s1
+				// skip the current number in s1, because letter is always greater than number according to requirement
 				index1++;
 				while ( index1<s1.length() && Character.isDigit(s1.charAt(index1)) ){
 					index1++;
@@ -56,7 +83,6 @@ public class StringCompare1 {
 				// extract digit from s1
 				StringBuffer digitStr1 = new StringBuffer();
 				digitStr1.append(c1);
-				
 				index1++;
 				while ( index1<s1.length() && Character.isDigit(s1.charAt(index1)) ){
 					digitStr1.append(s1.charAt(index1));
@@ -64,10 +90,10 @@ public class StringCompare1 {
 				}
 				int digit1 = Integer.parseInt(digitStr1.toString());
 				
+				
 				// extract digit from s2
 				StringBuffer digitStr2 = new StringBuffer();
 				digitStr2.append(c2);
-				
 				index2++;
 				while ( index2<s2.length() && Character.isDigit(s2.charAt(index2)) ){
 					digitStr2.append(s2.charAt(index2));
@@ -75,6 +101,8 @@ public class StringCompare1 {
 				}
 				int digit2 = Integer.parseInt(digitStr2.toString());
 				
+				
+				// compare 2 digits
 				if (digit1 > digit2) 
 					res = 1;
 				else if  (digit1 < digit2)
@@ -96,31 +124,7 @@ public class StringCompare1 {
 	}
 	
 	public static void main(String[] args) {
-		/*
-		 * s1 = "ab40c";
-		 * s2 = "ab5cdef";
-		 * --> s1 > s2
-		 * 
-		 * s1 = "ab40";
-		 * s2 = "ab";
-		 * --> s1 > s2
-		 * 
-		 * s1 = "abc";
-		 * s2 = "ab4";
-		 * --> s1 > s2
-		 * 
-		 * s1 = "ab4";
-		 * s2 = "ab4";
-		 * --> s1 = s2
-		 * 
-		 * s1 = "b1c";
-		 * s2 = "b1";
-		 * --> s1 > s2 
-		 * 
-		 * s1 = "bc";
-		 * s2 = "b1";
-		 * --> s1 > s2  
-		 */
+		
 		
 		
 		// TODO
